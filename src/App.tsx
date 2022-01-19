@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import Passenger from "./components/Passenger";
+import Report from "./components/Report";
 
 function App() {
  
@@ -12,6 +13,7 @@ function App() {
             <h2 className="logo">Motionlabs</h2>
           </a>
         </Header>
+        <Report />
         <Passenger />
       </Container>
     </Wrapper>
